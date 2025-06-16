@@ -23,6 +23,7 @@ function App() {
         onChange={(e) => setInputValue(e.target.value)}
         placeholder="Input here..."
         error={error}
+        maxLength={10}
       />
       <CustomButton label="Send" onClick={handleClick} />
     </div>
