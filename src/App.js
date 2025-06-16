@@ -1,8 +1,7 @@
-// src/App.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './App.css';
-import CustomInput from './components/input';
 import CustomButton from './components/button';
+import CustomInput from './components/input';
 
 function App() {
   const [inputValue, setInputValue] = useState('');
@@ -16,14 +15,14 @@ function App() {
       alert(`Bạn đã nhập: ${inputValue}`);
     }
   };
+
   return (
     <div className="App">
-      <CustomInput 
+       <CustomInput
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
         placeholder="Input here..."
         error={error}
-        maxLength={10}
       />
       <CustomButton label="Send" onClick={handleClick} />
     </div>
