@@ -1,7 +1,8 @@
+// src/App.js
+import React, { useState } from 'react';
 import './App.css';
 import CustomInput from './components/input';
 import CustomButton from './components/button';
-import React, { useState } from 'react';
 
 function App() {
   const [inputValue, setInputValue] = useState('');
