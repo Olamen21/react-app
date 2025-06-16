@@ -1,0 +1,28 @@
+/* src/CustomInput.css */
+.custom-input-container {
+  margin-bottom: 16px;
+}
+
+.custom-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-error {
+  border-color: red;
+}
+
+.custom-input-error {
+  margin-top: 4px;
+  color: red;
+  font-size: 14px;
+}
+
+.custom-input-count {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #888;
+  align-self: flex-end;
+}
